@@ -1,3 +1,5 @@
 plotly
 streamlit
 matplotlib
+pandas
+plotly_express

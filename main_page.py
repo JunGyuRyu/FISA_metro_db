@@ -31,8 +31,8 @@ col1.write('[지하철역 위치 정보]')
 st.data_editor(master_data)
 fig = px.scatter_mapbox(master_data, lat='지하철역X좌표', lon='지하철역Y좌표'
                         , hover_name="지하철역명"
-                        # , hover_data=["지하철호선명", "환승후호선명", "환승위치"]
-                        , hover_data=["지하철호선명", "환승후호선명", trans_info(지하철호선명, 환승후호선명)]
+                        , hover_data=["지하철호선명", "환승후호선명", "환승위치"]
+                        # , hover_data=["지하철호선명", "환승후호선명", trans_info(지하철호선명, 환승후호선명)]
                         
                      )
 fig.update_layout(mapbox_style="open-street-map")
@@ -71,7 +71,7 @@ with col2 :
     '의정부',
     '인천2호선',
     '우이신설선'))
-    지하철역_호선명 = pd.read_csv("C:/Users/GAYOUNG/Downloads/fix_지하철역_호선명매핑.csv")
+    지하철역_호선명 = pd.read_csv("./page2/fix_지하철역_호선명매핑.csv")
     역_호선명 = 지하철역_호선명.loc[:,['지하철역명','지하철호선명']]
     df = pd.DataFrame(역_호선명)
     # Add vertical scroll for radio.

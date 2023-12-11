@@ -1,9 +1,6 @@
-# from streamlit.web.cli import main
 import streamlit as st
 import pandas as pd
 import numpy as np
-# from matplotlib import pyplot as plt
-# import plotly.express as px
 from plotly import express as px
 
 

@@ -1,4 +1,5 @@
 streamlit
 matplotlib
 pandas
-plotly-express == 0.4.0
+# plotly-express
+plotly

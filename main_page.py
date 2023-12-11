@@ -1,8 +1,13 @@
-import streamlit as st
 # from streamlit.web.cli import main
+import streamlit as st
 import pandas as pd
-import plotly.express as px
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
+# import plotly.express as px
+from plotly import express as px
+# import plotly as p
+
+
 st.set_page_config(layout="wide")
 master_data_path = './data/'
 file_name   = '1page_mst.csv'

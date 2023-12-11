@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import pandas as pd
 
 color = {'서해선':'#81A914',
          '자기부상선':'#FFCD12',

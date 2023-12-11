@@ -1,8 +1,6 @@
-import streamlit as st
 import pandas as pd
-import numpy as np
-from plotly import express as px
-
+import streamlit as st
+import plotly.express as px
 
 st.set_page_config(layout="wide")
 master_data_path = './data/'
